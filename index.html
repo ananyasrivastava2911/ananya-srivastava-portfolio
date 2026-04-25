@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="typingText"></h1>
+
+<button id="themeToggle">Toggle Theme</button>
+
+<!-- FORM -->
+<form id="contactForm">
+    <input id="name" type="text" placeholder="Name">
+    <small></small><br><br>
+
+    <input id="email" type="email" placeholder="Email">
+    <small></small><br><br>
+
+    <textarea id="message" placeholder="Message"></textarea>
+    <small></small><br><br>
+
+    <button type="submit">Send</button>
+</form>
+
+<br><br>
+
+<!-- FILTER BUTTONS -->
+<button class="filter-btn" data-filter="all">All</button>
+<button class="filter-btn" data-filter="web">Web</button>
+<button class="filter-btn" data-filter="app">App</button>
+
+<!-- PROJECTS -->
+<div class="project web">Web Project</div>
+<div class="project app">App Project</div>
+
+<br><br>
+
+<button id="scrollTop" style="display:none;">↑ Top</button>
+
+<script src="script.js"></script>
+</body>
+</html>
